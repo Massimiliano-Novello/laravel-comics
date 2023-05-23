@@ -1,0 +1,34 @@
+@use "./partials/header";
+@use "./partials/card";
+@import '~bootstrap/scss/bootstrap';
+
+
+.header {
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+  
+    img {
+      width: 80px;
+    }
+  
+    li {
+      list-style: none;
+      margin: 0 0.4rem;
+      height: 100%;
+  
+    }
+  
+    a {
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+}
+
+.jumbotron {
+    height: 400px;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+}
+  
