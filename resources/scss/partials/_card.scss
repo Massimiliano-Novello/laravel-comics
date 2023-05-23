@@ -1,12 +1,21 @@
-// .card {
-//     margin: 10px;
-  
-//     h3 {
-//       font-size: .8rem;
-//     }
-  
-//     img {
-//       width: 150px;
-//       object-fit: cover;
-//     }
-//   }
+.my_card {
+    background-color: #1c1c1c;
+
+    .card {
+        margin: 10px;
+        border-width: 0;
+        border: none;
+        background-color: inherit;
+
+        h3 {
+            font-size: 0.8rem;
+            color: white;
+        }
+
+        img {
+            width: 150px;
+            height: 170px;
+            object-fit: cover;
+        }
+    }
+}
