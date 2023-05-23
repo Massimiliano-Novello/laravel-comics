@@ -13,6 +13,9 @@
                 </div>
             @endforeach
         </div>
+        <div class="text-center">
+            <button class="btn btn-primary">LOAD MORE</button>
+        </div>
     </div>
 </section>
 @endsection

@@ -18,7 +18,12 @@
 
     <main>
         @yield('content')
+        @include('partials.shop')
     </main>
+
+    <footer>
+        @include('partials.footer')
+    </footer>
 
 </body>
 

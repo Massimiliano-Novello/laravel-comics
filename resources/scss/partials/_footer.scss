@@ -1,0 +1,31 @@
+.footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  
+    .footer-list {
+      width: 70%;
+      height: 100%;
+      margin: 0 auto;
+      padding-top: 30px;
+  
+  
+      h3 {
+          color: white;
+      }
+  
+      li {
+          list-style-type: none;
+          color: white;
+          font-weight: 200;
+          font-size: .6rem;
+          margin: .6rem 0;
+      }
+  
+      .center-list {
+          margin: 0 2rem;
+      }
+  
+    }
+  }

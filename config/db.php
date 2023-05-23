@@ -74,5 +74,22 @@ return [
             "type" => "graphic novel"
         ]
     ],
-    "test" => "lorem"
+    "shop" => [
+        [
+            "image" => "buy-comics-digital-comics.png",
+            "title" => "DIGITAL COMICS"
+        ],
+        [
+            "image" => "buy-comics-merchandise.png",
+            "title" => "DC MERCHANDISE"
+        ],
+        [
+            "image" => "buy-comics-shop-locator.png",
+            "title" => "SHOP LOCATOR"
+        ],
+        [
+            "image" => "buy-comics-subscriptions.png",
+            "title" => "SUBCRIPTION"
+        ],
+    ]
 ];
